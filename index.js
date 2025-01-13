@@ -8,7 +8,7 @@ const todoRoute = require('./Routes/todo.route');
 
 
 app.use(express.json())
-app.use(cors({ origin: '*', credentials: true }));
+app.use(cors({ origin: 'https://basal-ai-todo.netlify.app/', credentials: true }));
 app.use(cookieParser()); 
 
 
